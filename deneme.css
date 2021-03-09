@@ -1,0 +1,95 @@
+div {
+  
+  border-style: double;
+  padding: 10px;
+  margin: 15px;
+}
+
+.img-wrap {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+div > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.resim{
+  max-height: 100%;
+  position: relative;
+  /* resmi ortalamak icin */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* resmi ortalamak icin */
+}
+
+.dis-cerceve{
+  /* max-width: 239px; */
+  /* width: calc(33.3% - 4px ); */
+  width: 150px;
+  height: 150px;
+  border-style: double;
+  /* overflow hidden oldugu icin padding verme */
+  padding: 0px;
+  margin: 4px 0 0 4px;
+  overflow: hidden;
+  /* object-fit: none; */
+}
+
+
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
+.dene :active {
+  background-color: blue;
+}

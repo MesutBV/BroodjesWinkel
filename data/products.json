@@ -1,0 +1,16 @@
+{
+    "ProductTitle": "Broodjes",
+    "Options": { 
+                "Name": "Smos Kaas", 
+                "Availablity": ["Wilrijk","Kontich"]
+            },
+    "Product": {
+                    "Title": 
+                            {
+
+                                "Name": "Smos Kaas",
+                                "Options": 
+                            }
+                }
+    
+}
